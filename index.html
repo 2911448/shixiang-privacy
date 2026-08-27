@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>拾响隐私政策</title>
+  <style>
+    :root { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", sans-serif; color: #17201e; background: #f5f7f6; }
+    body { margin: 0; }
+    main { box-sizing: border-box; width: min(760px, 100%); margin: 0 auto; padding: 48px 24px 72px; }
+    .mark { display: inline-grid; place-items: center; width: 50px; height: 50px; border-radius: 16px; background: linear-gradient(135deg,#10b9ad,#b9ff30); color: #07100e; font-size: 25px; font-weight: 800; }
+    h1 { margin: 20px 0 6px; font-size: 34px; letter-spacing: -.03em; }
+    .date { color: #67736f; margin-bottom: 32px; }
+    section { background: rgba(255,255,255,.82); border: 1px solid rgba(20,40,35,.09); border-radius: 18px; padding: 20px 22px; margin: 14px 0; box-shadow: 0 10px 30px rgba(20,50,40,.04); }
+    h2 { margin: 0 0 10px; font-size: 19px; }
+    p, li { line-height: 1.75; font-size: 15px; }
+    ul { padding-left: 20px; }
+    a { color: #008f87; }
+    footer { color: #67736f; font-size: 13px; margin-top: 28px; }
+    @media (prefers-color-scheme: dark) { :root { color: #edf5f2; background: #080b0a; } section { background: #121715; border-color: #28312e; box-shadow: none; } .date, footer { color: #9aa6a2; } a { color: #53ddd2; } }
+  </style>
+</head>
+<body><main>
+  <div class="mark">拾</div>
+  <h1>拾响隐私政策</h1>
+  <div class="date">生效及更新日期：2026 年 8 月 27 日</div>
+  <p>拾响是一款面向 iPhone 与 Apple Watch 的语音记账应用，由个人开发者闫鑫提供。本政策说明拾响如何处理你的个人信息，以及你对这些信息享有的权利。</p>
+  <section><h2>1. 我们处理的信息</h2><ul>
+    <li><strong>账号信息：</strong>通过 Apple 登录取得的用户唯一标识，以及你选择分享的真实邮箱或 Apple 生成的中继邮箱。</li>
+    <li><strong>账本信息：</strong>金额、收支或退款类型、分类、账户、商户、备注、发生时间、原始转写文本和周期总结。</li>
+    <li><strong>语音信息：</strong>你主动录制的音频。iPhone 以及连接 iPhone 的 Apple Watch 优先使用 Apple 语音识别；Apple Watch 独立使用时，音频经 Supabase 转发给腾讯云语音识别。拾响不会把原始音频持久保存到自己的云端存储。</li>
+    <li><strong>设备协作信息：</strong>Apple Watch 配对、安装、即时连接及账号同步状态，仅用于手机与手表协作。</li>
+  </ul></section>
+  <section><h2>2. 使用目的</h2><p>信息仅用于账号验证、跨设备同步、语音转写、识别账单金额与分类、关联退款、生成总结、导出账单、响应用户反馈及保护服务安全。拾响不出售个人信息，不用于广告，也不进行跨 App 跟踪。</p></section>
+  <section><h2>3. 自动化分析与服务提供方</h2><p>识别出的文字会连同可用分类、账户名称和时区发送给腾讯云托管的模型服务，用于判断内容是否为账单，并提取金额、类型、分类、商户和时间。模型结果只用于记账功能。</p><ul>
+    <li>Apple：Apple 登录、系统语音识别和设备通信；</li>
+    <li>Supabase：新加坡区域的认证、数据库和 Edge Functions；</li>
+    <li>腾讯云：语音识别及账单文本模型分析。</li>
+  </ul><p>我们仅提供完成对应功能所必需的信息，并使用 HTTPS 加密传输。服务提供方会按照各自的隐私政策处理数据。</p></section>
+  <section><h2>4. 存储、保留与安全</h2><p>账号和账本数据存储在新加坡区域的 Supabase，并通过身份认证和数据库行级访问控制隔离。数据保留至你主动删除账号，或依法需要删除之时。删除后，在线业务数据会被清除；备份残留可能在基础设施备份轮换周期内继续存在，之后被覆盖。</p><p>没有任何互联网传输和存储方式能保证绝对安全。请勿在语音备注中提供银行卡号、密码或与记账无关的敏感信息。</p></section>
+  <section><h2>5. 你的权利</h2><p>你可以在 App 设置中导出全部账单、退出账号，或永久删除账号和云端数据。如需查询、更正、删除个人信息或撤回隐私请求，请发送邮件至 <a href="mailto:xin2911448@icloud.com">xin2911448@icloud.com</a>。</p></section>
+  <section><h2>6. 未成年人</h2><p>拾响不面向 14 周岁以下儿童。如发现未经监护人同意处理了儿童个人信息，我们会在收到通知并核实后尽快删除。</p></section>
+  <section><h2>7. 政策更新</h2><p>功能或数据处理方式发生重要变化时，我们会更新本政策，并在 App 内或其他适当位置提示。更新后的政策会标注新的生效日期。</p></section>
+  <section><h2>8. 联系方式</h2><p>开发者：闫鑫<br>联系邮箱：<a href="mailto:xin2911448@icloud.com">xin2911448@icloud.com</a></p></section>
+  <footer>拾响 · 先记下来，再慢慢理解。</footer>
+</main></body></html>
